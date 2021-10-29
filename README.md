@@ -27,8 +27,8 @@
 
 #### Train Dataset
 
-- `root_path/train/train_data/`(Edu, Food, Life, Per_Rel, Work)
-- train_label은 따로 존재하지 않으며 train_data의 summary를 추출하여 label로 사용
+- `root_path/train/train_data/`(Beauty_Health, Event, Food, Hobby, Living, News_Edu, Personal_Rel, Shopping, Work)
+- train_label : 확장자명이 없는 csv 형식 파일 (280000 rows, 2 columns(dialogueID, summary))
 
   ```
   train_data (json): 학습용 데이터셋
@@ -64,8 +64,8 @@
 
 #### Test Dataset
 
-- `root_path/test/test_data/`(Edu, Food, Life, Per_Rel, Work)
-- 5개의 json 파일로 이루어진 test_data의 summary를 추론하는 문제
+- `root_path/test/test_data/`(Beauty_Health, Event, Food, Hobby, Living, News_Edu, Personal_Rel, Shopping, Work)
+- 9개의 json 파일로 이루어진 test_data의 summary를 추론하는 문제
 
   ```
   test_data (json): 추론용 데이터셋

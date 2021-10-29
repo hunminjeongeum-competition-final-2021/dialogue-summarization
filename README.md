@@ -108,5 +108,3 @@
   - `id` - dialogueID와 동일
 
   - `summary` - 추론한 요약문을 기입하여 제출
-
-  - `id`와 `summary` column을 모두 기입한 DataFrame을 결과물로 구성(**최종 제출 format**)

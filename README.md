@@ -23,7 +23,7 @@
 
   | 전체 크기 |            파일수             | NSML 데이터셋 이름 |
   | :-------: | :---------------------------: | :--------:|
-  |   436MB   | train_data(5)<br>test_data(5) | dialogue |
+  |   1GB   | train_data(9)<br>test_data(9) | final_dialogue |
 
 #### Train Dataset
 

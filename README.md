@@ -103,8 +103,8 @@
 
 - test_label (DataFrame 형식, 참가자 접근 불가)
 
-- columns - `["id", "summary"]`
+- columns - `["dialogueID", "summary"]`
 
-  - `id` - dialogueID와 동일
+  - `dialogueID` - id
 
   - `summary` - 추론한 요약문을 기입하여 제출
